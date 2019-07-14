@@ -1,0 +1,25 @@
+{
+    "name": "phabloraylan/lumen-middleware-trim-or-convert-strings",
+    "description": "Dealing with Spaces in Form Inputs using Middleware in Lumen.",
+    "keywords": ["middleware","trim","convert","string", "lumen"],
+    "type": "library",
+	"homepage": "https://github.com/phabloraylan/lumen-middleware-trim-or-convert-strings",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Phablo Raylan",
+            "email": "phabloraylan@gmail.com",
+            "homepage": "https://phabloraylan.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+		"php": ">=7.1.3",
+        "symfony/http-foundation": "^4.3"
+    },
+	"autoload": {
+        "psr-4": {
+            "LumenMiddlewareTrimOrConvertString\\": "src/"
+        }
+    }
+}
